@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 
+    id="plugin.audio.fluxfm"
+    name="[COLOR magenta]Flux Fm[/COLOR]"
+    version="1.0.12" 
+    provider-name="[COLOR magenta]SH Germania[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary></summary>
+		<description>[COLOR yellow]
+
+FACEBOOK GRUPPE HSK-DE:
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/
+
+WEB URL:
+https://www.fluxfm.de[/COLOR]
+
+</description>
+		<license></license>
+		<language>de</language>	
+		<source></source>
+		<email></email>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
