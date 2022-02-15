@@ -16,6 +16,11 @@ def add_item(url,infolabels,image=''):
 
 add_item('https://streams.fluxfm.de/live/mp3-320/audio/',{'title':'[COLOR yellow]Flux Fm[/COLOR]'},os.path.join(icons_path,'FluxFm.png'))
 add_item('https://streams.fluxfm.de/flux-hamburg/mp3-320/audio/',{'title':'[COLOR yellow]Flux Fm Hamburg[/COLOR]'},os.path.join(icons_path,'FluxFmHamburg.png'))
+add_item('https://streams.fluxfm.de/60er/mp3-320/streams.fluxfm.de/',{'title':'[COLOR yellow]60s: – Sounds of the Sixities[/COLOR]'},os.path.join(icons_path,'60s.png'))
+add_item('https://streams.fluxfm.de/70er/mp3-320/audio/',{'title':'[COLOR yellow]70s – Der 70er Channel[/COLOR]'},os.path.join(icons_path,'70s.png'))
+add_item('https://streams.fluxfm.de/80er/mp3-320/streams.fluxfm.de/',{'title':'[COLOR yellow]80s – Der 80er Channel[/COLOR]'},os.path.join(icons_path,'80s.png'))
+add_item('https://streams.fluxfm.de/90er/mp3-320/audio/',{'title':'[COLOR yellow]XRadio – 90’s Channel[/COLOR]'},os.path.join(icons_path,'XRadio.png'))
+add_item('https://streams.fluxfm.de/flx_2000/mp3-320/streams.fluxfm.de/',{'title':'[COLOR yellow]2000’s - Naughty Noughties[/COLOR]'},os.path.join(icons_path,'2000s.png'))
 add_item('https://streams.fluxfm.de/klubradio/mp3-320/audio/',{'title':'[COLOR yellow]Klubradio[/COLOR]'},os.path.join(icons_path,'Klubradio.png'))
 add_item('https://streams.fluxfm.de/boomfm/mp3-320/audio/',{'title':'[COLOR yellow]Boom FM [/COLOR]'},os.path.join(icons_path,'BoomFM.png'))
 add_item('https://streams.fluxfm.de/metalfm/mp3-320/radiode/',{'title':'[COLOR yellow]Metal Fm[/COLOR]'},os.path.join(icons_path,'MetalFM.png'))
@@ -31,13 +36,10 @@ add_item('https://streams.fluxfm.de/bbeachhouse/mp3-320/audio/',{'title':'[COLOR
 add_item('https://streams.fluxfm.de/event02/mp3-320/radiode/',{'title':'[COLOR yellow]Hippie Trippy Garden Pretty[/COLOR]'},os.path.join(icons_path,'HippieTrippyGardenPretty.png'))
 add_item('https://streams.fluxfm.de/elektro/mp3-320/audio/',{'title':'[COLOR yellow]Electro Flux[/COLOR]'},os.path.join(icons_path,'ElectroFlux.png'))
 add_item('https://fluxfm.streamabc.net/flx-chillout-mp3-320-6160841',{'title':'[COLOR yellow]Chillout[/COLOR]'},os.path.join(icons_path,'Chillout.png'))
-add_item('https://streams.fluxfm.de/90er/mp3-320/audio/',{'title':'[COLOR yellow]XRadio – 90’s Channel[/COLOR]'},os.path.join(icons_path,'XRadio.png'))
-add_item('https://streams.fluxfm.de/80er/mp3-320/streams.fluxfm.de/',{'title':'[COLOR yellow]80s – Der 80er Channel[/COLOR]'},os.path.join(icons_path,'80s.png'))
 add_item('https://streams.fluxfm.de/passport/mp3-320/audio/',{'title':'[COLOR yellow]Passport Approved[/COLOR]'},os.path.join(icons_path,'PassportApproved.png'))
 add_item('https://streams.fluxfm.de/john-reed/mp3-320/audio/',{'title':'[COLOR yellow]John Reed Radio[/COLOR]'},os.path.join(icons_path,'JohnReedRadio.png'))
 add_item('https://streams.fluxfm.de/jazzschwarz/mp3-320/audio/',{'title':'[COLOR yellow]Jazzradio Schwarzenstein[/COLOR]'},os.path.join(icons_path,'JazzradioSchwarzenstein.png'))
 add_item('https://streams.fluxfm.de/boomfmclassics/mp3-320/audio/',{'title':'[COLOR yellow]Boom FM Classics[/COLOR]'},os.path.join(icons_path,'BoomFMClassics.png'))
-add_item('https://streams.fluxfm.de/70er/mp3-320/audio/',{'title':'[COLOR yellow]70s – Der 70er Channel[/COLOR]'},os.path.join(icons_path,'70s.png'))
 add_item('https://streams.fluxfm.de/rnb/mp3-320/streams.fluxfm.de/',{'title':'[COLOR yellow]Hot RnB[/COLOR]'},os.path.join(icons_path,'HotRnB.png'))
 add_item('https://streams.fluxfm.de/rap/mp3-320/streams.fluxfm.de/',{'title':'[COLOR yellow]Flux Rap[/COLOR]'},os.path.join(icons_path,'FluxRap.png'))
 add_item('https://fluxfm.streamabc.net/flx-alternative-mp3-320-8827705',{'title':'[COLOR yellow]Radio Alternative[/COLOR]'},os.path.join(icons_path,'RadioAlternative.png'))
@@ -49,7 +51,6 @@ add_item('https://streams.fluxfm.de/yogasounds/mp3-320/streams.fluxfm.de/',{'tit
 add_item('https://streams.fluxfm.de/dubradio/mp3-320/streams.fluxfm.de/',{'title':'[COLOR yellow]Dub Radio[/COLOR]'},os.path.join(icons_path,'DubRadio.png'))
 add_item('https://fluxfm.streamabc.net/flx-rastaradio-mp3-320-8650677',{'title':'[COLOR yellow]Rasta Radio[/COLOR]'},os.path.join(icons_path,'RastaRadio.png'))
 add_item('https://streams.fluxfm.de/Chillhop/mp3-320/streams.fluxfm.de/',{'title':'[COLOR yellow]Chillhop[/COLOR]'},os.path.join(icons_path,'Chillhop.png'))
-add_item('https://streams.fluxfm.de/60er/mp3-320/streams.fluxfm.de/',{'title':'[COLOR yellow]60s: – Sounds of the Sixities[/COLOR]'},os.path.join(icons_path,'60s.png'))
 
 if addon.getSetting('sort') == 'true':
     xbmcplugin.addSortMethod(int(sys.argv[1]), xbmcplugin.SORT_METHOD_LABEL)
